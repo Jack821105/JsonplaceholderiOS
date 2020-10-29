@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		FA49980925498F03009D6AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49980825498F03009D6AC6 /* AppDelegate.swift */; };
 		FA49980B25498F03009D6AC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49980A25498F03009D6AC6 /* SceneDelegate.swift */; };
-		FA49980D25498F03009D6AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49980C25498F03009D6AC6 /* ViewController.swift */; };
+		FA49980D25498F03009D6AC6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49980C25498F03009D6AC6 /* PhotosViewController.swift */; };
 		FA49981025498F03009D6AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA49980E25498F03009D6AC6 /* Main.storyboard */; };
 		FA49981225498F06009D6AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA49981125498F06009D6AC6 /* Assets.xcassets */; };
 		FA49981525498F06009D6AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA49981325498F06009D6AC6 /* LaunchScreen.storyboard */; };
 		FA49982025498F06009D6AC6 /* jsonplaceholderiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49981F25498F06009D6AC6 /* jsonplaceholderiOSTests.swift */; };
 		FA49982B25498F06009D6AC6 /* jsonplaceholderiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49982A25498F06009D6AC6 /* jsonplaceholderiOSUITests.swift */; };
+		FA499850254991B7009D6AC6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49984F254991B7009D6AC6 /* Network.swift */; };
+		FA49985B2549958F009D6AC6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49985A2549958F009D6AC6 /* Photo.swift */; };
+		FA49986425499C8C009D6AC6 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49986325499C8C009D6AC6 /* PhotosCollectionViewCell.swift */; };
+		FA49986925499C9A009D6AC6 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49986825499C9A009D6AC6 /* PhotosCollectionViewController.swift */; };
+		FA499881254A8DB7009D6AC6 /* PhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA499880254A8DB7009D6AC6 /* PhotosCollectionViewCell.xib */; };
+		FA9DD979254AECA800516025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD978254AECA800516025 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		FA49980525498F03009D6AC6 /* jsonplaceholderiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonplaceholderiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA49980825498F03009D6AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA49980A25498F03009D6AC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA49980C25498F03009D6AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA49980C25498F03009D6AC6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		FA49980F25498F03009D6AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA49981125498F06009D6AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA49981425498F06009D6AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		FA49982625498F06009D6AC6 /* jsonplaceholderiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonplaceholderiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA49982A25498F06009D6AC6 /* jsonplaceholderiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonplaceholderiOSUITests.swift; sourceTree = "<group>"; };
 		FA49982C25498F06009D6AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA49984F254991B7009D6AC6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FA49985A2549958F009D6AC6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		FA49986325499C8C009D6AC6 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA49986825499C9A009D6AC6 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		FA499880254A8DB7009D6AC6 /* PhotosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA9DD978254AECA800516025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,11 @@
 		FA49980725498F03009D6AC6 /* jsonplaceholderiOS */ = {
 			isa = PBXGroup;
 			children = (
-				FA49980825498F03009D6AC6 /* AppDelegate.swift */,
-				FA49980A25498F03009D6AC6 /* SceneDelegate.swift */,
-				FA49980C25498F03009D6AC6 /* ViewController.swift */,
-				FA49980E25498F03009D6AC6 /* Main.storyboard */,
+				FA49984E2549919E009D6AC6 /* Network */,
+				FA49984525498F43009D6AC6 /* Model */,
+				FA49983B25498F10009D6AC6 /* Delegate */,
+				FA49984025498F24009D6AC6 /* Controller */,
+				FA49984425498F35009D6AC6 /* View */,
 				FA49981125498F06009D6AC6 /* Assets.xcassets */,
 				FA49981325498F06009D6AC6 /* LaunchScreen.storyboard */,
 				FA49981625498F06009D6AC6 /* Info.plist */,
@@ -126,6 +139,67 @@
 				FA49982C25498F06009D6AC6 /* Info.plist */,
 			);
 			path = jsonplaceholderiOSUITests;
+			sourceTree = "<group>";
+		};
+		FA49983B25498F10009D6AC6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA49980825498F03009D6AC6 /* AppDelegate.swift */,
+				FA49980A25498F03009D6AC6 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FA49984025498F24009D6AC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD977254AEC9800516025 /* ViewController */,
+				FA49985F25499BA4009D6AC6 /* PhotosController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA49984425498F35009D6AC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA49980E25498F03009D6AC6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA49984525498F43009D6AC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA49985A2549958F009D6AC6 /* Photo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA49984E2549919E009D6AC6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA49984F254991B7009D6AC6 /* Network.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		FA49985F25499BA4009D6AC6 /* PhotosController */ = {
+			isa = PBXGroup;
+			children = (
+				FA49980C25498F03009D6AC6 /* PhotosViewController.swift */,
+				FA49986325499C8C009D6AC6 /* PhotosCollectionViewCell.swift */,
+				FA49986825499C9A009D6AC6 /* PhotosCollectionViewController.swift */,
+				FA499880254A8DB7009D6AC6 /* PhotosCollectionViewCell.xib */,
+			);
+			path = PhotosController;
+			sourceTree = "<group>";
+		};
+		FA9DD977254AEC9800516025 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD978254AECA800516025 /* ViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA49981525498F06009D6AC6 /* LaunchScreen.storyboard in Resources */,
+				FA499881254A8DB7009D6AC6 /* PhotosCollectionViewCell.xib in Resources */,
 				FA49981225498F06009D6AC6 /* Assets.xcassets in Resources */,
 				FA49981025498F03009D6AC6 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA49980D25498F03009D6AC6 /* ViewController.swift in Sources */,
+				FA499850254991B7009D6AC6 /* Network.swift in Sources */,
+				FA49980D25498F03009D6AC6 /* PhotosViewController.swift in Sources */,
 				FA49980925498F03009D6AC6 /* AppDelegate.swift in Sources */,
+				FA49986925499C9A009D6AC6 /* PhotosCollectionViewController.swift in Sources */,
 				FA49980B25498F03009D6AC6 /* SceneDelegate.swift in Sources */,
+				FA49985B2549958F009D6AC6 /* Photo.swift in Sources */,
+				FA9DD979254AECA800516025 /* ViewController.swift in Sources */,
+				FA49986425499C8C009D6AC6 /* PhotosCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +516,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = jsonplaceholderiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.jsonplaceholderiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,7 +537,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = jsonplaceholderiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.jsonplaceholderiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
